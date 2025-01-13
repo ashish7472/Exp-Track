@@ -1,4 +1,5 @@
 import { useState } from 'react'
+import { BrowserRouter as Router} from "react-router-dom";
 import './App.css'
 import LandingPage from './pages/LandingPage'
 import DashBoard from './pages/DashBoard'
@@ -10,7 +11,9 @@ function App() {
   return (
     <>
      <LandingPage/>
-     <DashBoard/>
+     <Router>
+      <DashBoard/>
+     </Router>
     </>
   )
 }

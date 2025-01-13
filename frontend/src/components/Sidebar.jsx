@@ -1,5 +1,6 @@
 import React from "react";
 import { motion } from "framer-motion";
+// import UserProfile from "../components/UserProfile";
 
 const Sidebar = ({ onMenuClick }) => {
   return (
